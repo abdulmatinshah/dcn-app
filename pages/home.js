@@ -36,12 +36,10 @@ const Hero = () => (
         <div className='w-full lg:w-6/12 px-4 ml-auto mr-auto text-center'>
           <div className='pr-12'>
             <h1 className='text-white font-semibold text-5xl'>
-              Your story starts with us.
+              District Council Narowal
             </h1>
             <p className='mt-4 text-lg text-gray-300'>
-              This is a simple example of a Landing Page you can build using
-              Tailwind Starter Kit. It features multiple CSS components based on
-              the Tailwindcss design system.
+              We belive in serving the residents of Narowal to our level best.
             </p>
           </div>
         </div>
@@ -79,10 +77,9 @@ const Services = () => (
               <div className='text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400'>
                 <i className='fas fa-award'></i>
               </div>
-              <h6 className='text-xl font-semibold'>Awarded Agency</h6>
+              <h6 className='text-xl font-semibold'>Vice Chairman 1</h6>
               <p className='mt-2 mb-4 text-gray-600'>
-                Divide details about your product or agency work into parts. A
-                paragraph describing a feature will be enough.
+                photo and message of Vice Chairman No. 1.
               </p>
             </div>
           </div>
@@ -94,10 +91,9 @@ const Services = () => (
               <div className='text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400'>
                 <i className='fas fa-retweet'></i>
               </div>
-              <h6 className='text-xl font-semibold'>Free Revisions</h6>
+              <h6 className='text-xl font-semibold'>Chairman</h6>
               <p className='mt-2 mb-4 text-gray-600'>
-                Keep you user engaged by providing meaningful information.
-                Remember that by this time, the user is curious.
+                Photo and message of Chairman.
               </p>
             </div>
           </div>
@@ -109,10 +105,9 @@ const Services = () => (
               <div className='text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400'>
                 <i className='fas fa-fingerprint'></i>
               </div>
-              <h6 className='text-xl font-semibold'>Verified Company</h6>
+              <h6 className='text-xl font-semibold'>Vice Chairman 2</h6>
               <p className='mt-2 mb-4 text-gray-600'>
-                Write a few lines about each one. A paragraph describing a
-                feature will be enough. Keep you user engaged!
+                Photo and message of vice chairman 2
               </p>
             </div>
           </div>
@@ -125,22 +120,20 @@ const Services = () => (
             <i className='fas fa-user-friends text-xl'></i>
           </div>
           <h3 className='text-3xl mb-2 font-semibold leading-normal'>
-            Working with us is a pleasure
+            Our services
           </h3>
           <p className='text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700'>
             Don't let your uses guess by attaching tooltips and popoves to any
             element. Just make sure you enable them first via JavaScript.
           </p>
           <p className='text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700'>
-            The kit comes with three pre-built pages to help you get started
-            faster. You can change the text and images and you're good to go.
-            Just make sure you enable them first via JavaScript.
+            cleanliness, development projects
           </p>
           <a
             href='https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation'
             className='font-bold text-gray-800 mt-8'
           >
-            Check Tailwind Starter Kit!
+            Check our services!
           </a>
         </div>
 
@@ -219,11 +212,10 @@ const Featured = () => (
             <div className='text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300'>
               <i className='fas fa-rocket text-xl'></i>
             </div>
-            <h3 className='text-3xl font-semibold'>A growing company</h3>
+            <h3 className='text-3xl font-semibold'>A growing economy</h3>
             <p className='mt-4 text-lg leading-relaxed text-gray-600'>
-              The extension comes with three pre-built pages to help you get
-              started faster. You can change the text and images and you're good
-              to go.
+              We are working hard to improve livelihood of the local residents
+              by generating new business activities
             </p>
             <ul className='list-none mt-6'>
               <li className='py-2'>
@@ -234,9 +226,7 @@ const Featured = () => (
                     </span>
                   </div>
                   <div>
-                    <h4 className='text-gray-600'>
-                      Carefully crafted components
-                    </h4>
+                    <h4 className='text-gray-600'>New Development Projects</h4>
                   </div>
                 </div>
               </li>
@@ -248,7 +238,7 @@ const Featured = () => (
                     </span>
                   </div>
                   <div>
-                    <h4 className='text-gray-600'>Amazing page examples</h4>
+                    <h4 className='text-gray-600'>Publications</h4>
                   </div>
                 </div>
               </li>
@@ -260,7 +250,7 @@ const Featured = () => (
                     </span>
                   </div>
                   <div>
-                    <h4 className='text-gray-600'>Dynamic components</h4>
+                    <h4 className='text-gray-600'>Dynamic leadership</h4>
                   </div>
                 </div>
               </li>
@@ -277,11 +267,12 @@ const Team = () => (
     <div className='container mx-auto px-4'>
       <div className='flex flex-wrap justify-center text-center mb-24'>
         <div className='w-full lg:w-6/12 px-4'>
-          <h2 className='text-4xl font-semibold'>Here are our heroes</h2>
+          <h2 className='text-4xl font-semibold'>
+            Here are our flagship projects
+          </h2>
           <p className='text-lg leading-relaxed m-4 text-gray-600'>
-            According to the National Oceanic and Atmospheric Administration,
-            Ted, Scambos, NSIDClead scentist, puts the potentially record
-            maximum.
+            We are striving hard for ensuring the best service delivery at the
+            doorsteps of residents of District Narowal.
           </p>
         </div>
       </div>
@@ -295,9 +286,9 @@ const Team = () => (
               style={{ maxWidth: '120px' }}
             />
             <div className='pt-6 text-center'>
-              <h5 className='text-xl font-bold'>Ryan Tompson</h5>
+              <h5 className='text-xl font-bold'>Project 1</h5>
               <p className='mt-1 text-sm text-gray-500 uppercase font-semibold'>
-                Web Developer
+                Description ...
               </p>
               <div className='mt-6'>
                 <button
@@ -331,9 +322,9 @@ const Team = () => (
               style={{ maxWidth: '120px' }}
             />
             <div className='pt-6 text-center'>
-              <h5 className='text-xl font-bold'>Romina Hadid</h5>
+              <h5 className='text-xl font-bold'>Project 2</h5>
               <p className='mt-1 text-sm text-gray-500 uppercase font-semibold'>
-                Marketing Specialist
+                Description ...
               </p>
               <div className='mt-6'>
                 <button
@@ -361,9 +352,9 @@ const Team = () => (
               style={{ maxWidth: '120px' }}
             />
             <div className='pt-6 text-center'>
-              <h5 className='text-xl font-bold'>Alexa Smith</h5>
+              <h5 className='text-xl font-bold'>Project 3</h5>
               <p className='mt-1 text-sm text-gray-500 uppercase font-semibold'>
-                UI/UX Designer
+                Description ...
               </p>
               <div className='mt-6'>
                 <button
@@ -397,9 +388,9 @@ const Team = () => (
               style={{ maxWidth: '120px' }}
             />
             <div className='pt-6 text-center'>
-              <h5 className='text-xl font-bold'>Jenna Kardi</h5>
+              <h5 className='text-xl font-bold'>Project 4</h5>
               <p className='mt-1 text-sm text-gray-500 uppercase font-semibold'>
-                Founder and CEO
+                Description ...
               </p>
               <div className='mt-6'>
                 <button
