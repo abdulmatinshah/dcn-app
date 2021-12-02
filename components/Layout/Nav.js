@@ -19,7 +19,7 @@ export default () => {
       </div>
       <div>
         <ul className='flex space-x-3'>
-          <NavItem href='/test' text='Home' />
+          <NavItem href='/home' text='Home' />
           <NavItem href='/ucs' text='UCs' />
           <NavItem href='/download' text='Download' />
           <NavItem href='/customers' text='Customers' />
