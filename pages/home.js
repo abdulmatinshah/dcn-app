@@ -68,7 +68,7 @@ const Hero = () => (
 )
 
 const Services = () => (
-  <section className='pb-20 bg-gray-300 -mt-24'>
+  <section className='pb-20 bg-gray-300 -mt-24' data-aos='fade-up'>
     <div className='container mx-auto px-4'>
       <div className='flex flex-wrap'>
         <div className='lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center'>
@@ -115,7 +115,10 @@ const Services = () => (
       </div>
 
       <div className='flex flex-wrap items-center mt-32'>
-        <div className='w-full md:w-5/12 px-4 mr-auto ml-auto'>
+        <div
+          className='w-full md:w-5/12 px-4 mr-auto ml-auto'
+          data-aos='slide-right'
+        >
           <div className='text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100'>
             <i className='fas fa-user-friends text-xl'></i>
           </div>
