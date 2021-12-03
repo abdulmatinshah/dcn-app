@@ -1,7 +1,7 @@
 import { gql } from '@apollo/client'
 import { client } from '../lib/client'
 
-export default ({ ucs }) => {
+export default GQL = ({ ucs }) => {
   return (
     <>
       <h1>GQLPage</h1>
@@ -11,7 +11,7 @@ export default ({ ucs }) => {
 }
 
 export const getStaticProps = async () => {
-  const { data } = await client.query({
+  const res = await client.query({
     query: gql`
       query MyQuery {
         uCs {
@@ -26,6 +26,6 @@ export const getStaticProps = async () => {
     `,
   })
   return {
-    props: { ucs: data.uCs.edges },
+    props: { ucs: res?.data?.uCs?.edges || {} },
   }
 }
