@@ -2,7 +2,7 @@ import { useEffect } from 'react'
 import Head from 'next/head'
 import Navbar from './Navbar'
 import Footer from './Footer'
-import MyNav from './myNav'
+// import MyNav from './myNav'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
@@ -25,7 +25,7 @@ const Layout = (props) => {
           referrerpolicy='no-referrer'
         />
       </Head>
-      <MyNav />
+      {/* <MyNav /> */}
       <header>
         <Navbar transparent={false} />
       </header>
